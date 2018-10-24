@@ -3,5 +3,5 @@ def my_select(collection)
  new_array = []
  while counter < collection.size
   yield(collection[counter])
-  new_array
+  new_array << 
 end
