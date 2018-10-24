@@ -6,3 +6,5 @@ def my_select(collection)
   new_array << collection[count]
   counter += 1 
 end
+new_array
+end
