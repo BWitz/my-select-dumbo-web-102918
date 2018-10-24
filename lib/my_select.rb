@@ -4,4 +4,5 @@ def my_select(collection)
  while counter < collection.size
   yield(collection[counter])
   new_array << collection[count]
+  counter += 1 
 end
